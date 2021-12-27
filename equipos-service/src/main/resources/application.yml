@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: equipos
+  data:
+    mongodb:
+      uri: mongodb://${MONGO_USERNAME:admin}:${MONGO_PASSWORD:admin}@${MONGO_HOST:localhost}:${MONGO_PORT:49857}/${MONGO_DATABASE:admin}
+#springfox:
+#  documentation:
+#    swagger:
+#      v2:
+#        path: /swagger.json

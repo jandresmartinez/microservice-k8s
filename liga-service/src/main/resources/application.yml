@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: liga
+  data:
+    mongodb:
+      uri: mongodb://${MONGO_USERNAME:admin}:${MONGO_PASSWORD:admin}@${MONGO_HOST:localhost}:${MONGO_PORT:49181}/${MONGO_DATABASE:division}
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+server:
+  port: 8080
+#springfox:
+#  documentation:
+#    swagger:
+#      v2:
+#        path: /swagger.json
