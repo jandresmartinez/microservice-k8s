@@ -4,7 +4,7 @@
 En este pequeño proyecto intento demostrar algunas de las características interesantes que Spring Cloud Kubernetes ofrece. Además, puesto que en un mundo de microservicios es muy probable que se trabaje con diferentes lenguajes de programación, he optado por crear un servicio en Python, usando Flask. Éste tiene inter-comunicación con otros servicios desplegados. 
 
 _En Español_??
-sí, he optado por nombres y un readme en español porque...me apetecía escribir en Español :monkey_mouth_face :muscle 
+sí, he optado por nombres y un readme en español porque...me apetecía escribir en Español 🐵 🏖️ 
 
 
 A lo largo de este proyecto he logrado probar otras herramientas como son [Skaffold](https://skaffold.dev/), [JIB](https://skaffold.dev/docs/pipeline-stages/builders/jib/) e incluso una herramienta de monitorado del cluster de Kubernetes como es [Octant](https://octant.dev/)
